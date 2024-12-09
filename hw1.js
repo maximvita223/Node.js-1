@@ -31,7 +31,7 @@ const server = http.createServer((req, res) => {
         
    
 });
-var counter = 0;
+let counter = 0;
 const port= 3000;
 
 server.listen(port, () => {
